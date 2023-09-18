@@ -1,11 +1,10 @@
-﻿using PhoneMarket.UI.Forms;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PhoneMarket.UI
+namespace WindowsFormsApp1
 {
     internal static class Program
     {
@@ -17,7 +16,7 @@ namespace PhoneMarket.UI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            System.Windows.Forms.Application.Run(new SingInForm());
+            Application.Run(new Form1());
         }
     }
 }

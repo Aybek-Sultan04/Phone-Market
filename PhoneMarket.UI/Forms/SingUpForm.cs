@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PhoneMarket.UI
+namespace PhoneMarket.UI.Forms
 {
-    public partial class Form1 : Form
+    public partial class SingUpForm : Form
     {
-        public Form1()
+        public SingUpForm()
         {
             InitializeComponent();
+        }
+
+        private void ExitApplicatonLable_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
