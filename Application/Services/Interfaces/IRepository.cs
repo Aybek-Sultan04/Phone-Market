@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Application.Services.Interfaces
+﻿namespace Application.Services.Interfaces
 {
-    internal class IRepository
+    public interface IRepository<T>
     {
+        int Create(T entity);
+        int Update(T entity);
+        int Delete(T entity);
+        IEnumerable<T> GetAll();
+        T GetById(int id);
     }
 }
