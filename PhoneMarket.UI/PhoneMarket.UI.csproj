@@ -90,7 +90,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\CloseEyeForSingIn.png" />
+    <Content Include="Images\OpenEyeForSingIn.png" />
     <Content Include="Images\picUser1.png" />
+    <Content Include="Images\SingInImages.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

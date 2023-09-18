@@ -42,7 +42,6 @@ namespace PhoneMarket.UI.Forms
             {
                 this.PasswordTextBox.Text = string.Empty;
                 PasswordTextBox.ForeColor = Color.Black;
-                this.PasswordTextBox.UseSystemPasswordChar = true;
             }
         }
 
@@ -52,7 +51,6 @@ namespace PhoneMarket.UI.Forms
             {
                 this.PasswordTextBox.Text = "Password kiriting";
                 PasswordTextBox.ForeColor = Color.Gray;
-                this.PasswordTextBox.UseSystemPasswordChar = false;
             }
         }
 
@@ -97,6 +95,34 @@ namespace PhoneMarket.UI.Forms
         private void panel1_MouseDown(object sender, MouseEventArgs e)
         {
             lastPoint = new Point(e.X, e.Y);
+        }
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            pictureBox2.Image = Properties.Resources.CloseEyeForSingIn;
+            this.PasswordTextBox.UseSystemPasswordChar = true;
+            
+        }
+        private void pictureBox2_DoubleClick(object sender, EventArgs e)
+        {
+            pictureBox2.Image = Properties.Resources.OpenEyeForSingIn;
+            this.PasswordTextBox.UseSystemPasswordChar = false;
+        }
+
+        private void singUp_MouseEnter(object sender, EventArgs e)
+        {
+            singUp.ForeColor = Color.Purple;
+        }
+
+        private void singUp_MouseLeave(object sender, EventArgs e)
+        {
+            singUp.ForeColor = Color.Black;
+        }
+
+        private void singUp_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            SingUpForm singUpForm = new SingUpForm();
+            singUpForm.Show();
         }
     }
 }

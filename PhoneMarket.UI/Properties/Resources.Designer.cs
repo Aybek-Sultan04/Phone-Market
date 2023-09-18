@@ -63,9 +63,49 @@ namespace PhoneMarket.UI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap CloseEyeForSingIn {
+            get {
+                object obj = ResourceManager.GetObject("CloseEyeForSingIn", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap OpenEyeForSingIn {
+            get {
+                object obj = ResourceManager.GetObject("OpenEyeForSingIn", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap picUser1 {
             get {
                 object obj = ResourceManager.GetObject("picUser1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SingInImages {
+            get {
+                object obj = ResourceManager.GetObject("SingInImages", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SingInImages1 {
+            get {
+                object obj = ResourceManager.GetObject("SingInImages1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
