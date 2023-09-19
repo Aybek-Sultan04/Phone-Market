@@ -11,7 +11,7 @@ public class Phone
     public decimal Price { get; set; }
     public Phone_Color Color { get; set; }
     public Condition Condition { get; set; }
-    public string? Image { get; set; }
+    public byte[]? Image { get; set; }
 
     public int? PostId { get; set; }
     public Post? Post { get; set; }
